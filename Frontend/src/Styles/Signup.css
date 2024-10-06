@@ -1,0 +1,103 @@
+.SG_HD1_H1{
+    margin: 10px;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.SG_H1{
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    font-size: 26px;
+    font-weight: 600;
+}
+.FRM_DIV_D{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.SGUP_FRM_IMG{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.FRM_IMG_LBL{
+    border-radius: 50%;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(63, 9, 58);
+    cursor: pointer;
+}
+.FRM_DIV{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px solid rgb(63, 9, 58);
+    border-radius: 10px;
+}
+.FRM_PART{
+    width: 230px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.FRM_PART1{
+    width: 230px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.FRM_LBL{
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.FRM_IP{
+    height: 32px;
+    margin: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    outline: none;
+}
+.FRM_IP:focus {
+    border: 2px solid rgb(63, 9, 58);
+}
+.FRM_SBTN{
+    border: none;
+    outline: none;
+    background: none;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin: 5px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(63, 9, 58);
+}
+.FRM_LNK_BTN{
+    text-decoration: none;
+    color: rgb(63, 9, 58);
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+}
+@media screen and (max-width: 320px) {
+    .HDR_SGUP{
+        width: 80px;
+        font-size: 12px;
+    }
+}

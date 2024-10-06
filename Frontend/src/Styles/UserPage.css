@@ -1,0 +1,106 @@
+.UP_DIV_HD1{
+    margin: 10px;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.UP_H1{
+    text-align: justify;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(63, 9, 58);
+}
+.PF_DIV{
+    margin: 10px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.IMG_SRC{
+    border: 2px solid rgb(63, 9, 58);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.PF_P{
+    text-align: center;
+    word-wrap: break-word;
+    text-wrap: wrap;
+    font-size: 14px;
+}
+.LG_BTN{
+    border: none;
+    outline: none;
+    background: none;
+    height: 40px;
+    width: 80px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(63, 9, 58);
+}
+.UP_FRM_DIV_D{
+    margin: 10px 10px 50px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.UP_FRM_D{
+    border: 2px solid rgb(63, 9, 58);
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    width: 220px;
+}
+.UP_IMG_FRM{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.FRM_LB_IP_D{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.UP_LBL{
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.UP_IP{
+    margin: 5px;
+    border: 1px solid black;
+    outline: none;
+    padding-left: 5px;
+    font-size: 12px;
+    height: 30px;
+}
+.UP_IP:focus {
+    border: 2px solid rgb(63, 9, 58);
+}
+.UP_SBTN{
+    border: none;
+    outline: none;
+    background: none;
+    border-radius: 10px;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(63, 9, 58);
+}

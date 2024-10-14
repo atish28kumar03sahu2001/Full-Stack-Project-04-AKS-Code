@@ -17,7 +17,7 @@
 }
 .PF_DIV{
     margin: 10px;
-    height: 50vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,6 +41,8 @@
     background: none;
     height: 40px;
     width: 80px;
+    padding: 7px;
+    margin: 10px;
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
@@ -62,7 +64,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 50vh;
+    height: 60vh;
     width: 220px;
 }
 .UP_IMG_FRM{

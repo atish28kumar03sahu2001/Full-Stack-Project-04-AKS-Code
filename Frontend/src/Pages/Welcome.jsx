@@ -10,7 +10,7 @@ export const Welcome = () => {
                 <h1 className="H1_DIV">ClearExpense App</h1>
             </div>
             <div className="CLICK_LINK_DIV">
-                <Link to="/signup" className="CLICK_LNK">Click Here!</Link>
+                <Link to="/signin" className="CLICK_LNK">Click Here!</Link>
             </div>
             <div className="DIV_HD2_PP">
                 <p className="DIV_PP">ClearExpense is a comprehensive full-stack expense management solution designed to simplify personal and business financial tracking. With its robust authentication system, ClearExpense ensures a secure environment where users can seamlessly create, update, and manage their accounts. The platform allows users to easily track their expenses with full CRUD (Create, Read, Update, Delete) operations, providing them with complete control over their financial data. One of the key features of ClearExpense is its powerful data visualization capabilities. Users can view their spending patterns through intuitive charts, breaking down their expenses by day, month, and year. This visual representation helps users better understand their financial habits, making it easier to manage budgets and track where their money is going.</p>

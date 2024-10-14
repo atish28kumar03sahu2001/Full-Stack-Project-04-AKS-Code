@@ -7,6 +7,8 @@ import morgan from 'morgan';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import {Authentication} from "./routes/AuthRoutes.js";
+import { ExpenseRoutes } from './routes/ExpenseRoutes.js';
+import { PaymentRoutes } from './routes/PaymentRoutes.js';
 
 const app = express();
 dotenv.config();
@@ -35,6 +37,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/uploads', express.static(uploadsDir));
 app.use('/api/auth',Authentication);
 app.use('/api/user',Authentication);
+app.use('/api/expense',ExpenseRoutes);
+app.use('/api/payment', PaymentRoutes);
 
 app.get("/",(req, res) => {
     res.json({ msg: "Backend Server Connected Successfully!"})

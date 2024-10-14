@@ -3,7 +3,7 @@
     background-color: rgb(63, 9, 58);
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .HDR_H1{
@@ -25,11 +25,78 @@
     border-radius: 10px;
     font-size: 14px;
     font-weight: 600;
+    margin: 10px 20px;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+.MBH_SG_H_MENU{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    margin: 10px;
+}
+.MBH_BTNS_DIV{
+    margin: 10px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.ICN_DIV_MENU{
+    display: none;
+}
+.MBH_SG_H_DIV_MENU {
+    background-color: rgb(63, 9, 58);
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 12%;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    overflow-y: auto;
+    padding-top: 15vh;
+    transition: transform 0.3s ease;
+}
+.NAVBAR_BAR{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .MBH_HD_H_DIV{
+        width: 50%;
+    }
+    .MBH_SG_H_DIV, .MBH_BTNS_DIV{
+        display: none;
+    }
+    .ICN_DIV_MENU{
+        margin: 10px;
+        display: flex;
+    }
+    .MBH_SG_H_DIV_MENU {
+        display: flex;
+    }
+}
+@media screen and (max-width: 425px) {
+    .MBH_HD_H_DIV{
+        width: 70%;
+    }
+    .MBH_HD_H{
+        font-size: 34px;
+    }
+    .MBH_SG_H_DIV_MENU {
+        display: flex; 
+    }
 }
 
 @media screen and (max-width: 320px) {

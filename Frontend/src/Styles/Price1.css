@@ -1,0 +1,50 @@
+.PRICE_DIV_D_BOX{
+    border: 2px solid rgb(63, 9, 58);
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 10vh;
+}
+.PRICE_DIV_TOTAL{
+    margin: 5px;
+    font-size: 14px;
+    color: rgb(63, 9, 58);
+    text-align: justify;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    font-weight: 600;
+}
+.PRICE_DIV_D_SORT{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.SORT_BTN{
+    border: none;
+    outline: none;
+    background: none;
+    width: 40px;
+    height: 30px;
+    background-color: rgb(63, 9, 58);
+    cursor: pointer;
+    margin: 10px;
+}
+@media screen and (max-width: 425px){
+    .PRICE_DIV_D_BOX{
+        height: 15vh;
+        flex-direction: column;
+    }
+    .SORT_BTN{
+        width: 60px;
+    }
+}
+@media screen and (max-width: 320px){
+    .PRICE_DIV_D_BOX{
+        height: 30vh;
+        flex-direction: column;
+    }
+}
